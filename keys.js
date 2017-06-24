@@ -7,7 +7,7 @@ exports.twitterKeys = {
   access_token_secret: '<input here>',
 }
 
-http://www.omdbapi.com/?apikey=[yourkey]&
+var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=40e9cece";
 
 
 

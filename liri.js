@@ -75,7 +75,7 @@ function movieThis() {
 		r: 'json',
 		tomatoes: true
 	}
-	var queryURL = "http://www.omdbapi.com/?" + api
+	var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=40e9cece";
 
 
 }
